@@ -4,6 +4,74 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>TrabalhoJS</title>
+        <style>
+            body {
+                background-color: #eee;
+                font-family: "Montserrat", sans-serif;
+                margin: 20px;
+            }
+
+            h1 {
+                margin-left: 50px;
+            }
+
+            li {
+                padding: 5px;
+            }
+        </style>
     </head>
-    <body></body>
+    <body>
+        <main>
+            <h1>Descrição do trabalho:</h1>
+            <ul>
+                <li>
+                    Para englobar todas as atividades propostas, eu fiz a
+                    seguinte tabuada:
+                    <a target="_blank" href="./pages/tabuada.html">Acessar</a>
+                </li>
+                <li>
+                    Dentro do arquivo <strong>pages/tabuada.html</strong> eu
+                    inseri meu html, contendo um input e um botão para gerar a
+                    tabuada com base no número inserido.
+                </li>
+                <li>
+                    Ai inserir o número e clicar no botão, chama-se a função
+                    <code>gerarResultado()</code> que está dentro do arquivo
+                    <strong>js/tabuada.js</strong>
+                </li>
+                <li>
+                    Na função <code>gerarResultado()</code>, primeiro de tudo eu
+                    limpo a tabela para gerar uma nova tabuada, após isso eu
+                    pego o número digitado.
+                </li>
+                <li>
+                    Eu utilizo uma estrutura de decisão para verificar se foi
+                    digitado algo, se sim, eu crio a tabela com seus cabeçalhos.
+                </li>
+                <li>
+                    Após a criação da tabela, eu preencho a mesma com a tabuada,
+                    utilizando uma estrutura de repetição.
+                </li>
+                <li>
+                    Caso não haja um número válido, a estrutura de decisão vai
+                    gerar um alerta solicitando.
+                </li>
+                <li>
+                    Por fim, utilizando <code>querySelector()</code>, eu
+                    adiciono estilo aos elementos table, th e td para que a
+                    tabela possa ser vista por completo.
+                </li>
+                <li>
+                    Utilizei o seguinte
+                    <a
+                        target="_blank"
+                        href="https://br.smartick.com/blog/matematica/multiplicacao-e-divisao/multiplicacao/"
+                        >link</a
+                    >
+                    como referência para as terminologias matemáticas
+                    utilizadas.
+                </li>
+            </ul>
+        </main>
+    </body>
 </html>
